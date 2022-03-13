@@ -1,0 +1,13 @@
+para levantar el proyecto basta con tener docker instalado y hacer
+"docker compose up " 
+dentro de la carpeta del proyecto
+
+Consultar servicios super heroes
+para ver a todos los super heroes
+/searchComics/
+el api de marvel tiene un limite de 100 superheroes por consulta asi que se opto por hace una paginacion
+/searchComics/?pagination=2
+Busqueda por Comics
+searchComics/?comic=avengers
+Busqieda por Super Heroe especifico
+searchComics/?name=hulk
